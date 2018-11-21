@@ -8,7 +8,6 @@
 # Research questions
 # Milestone 1
 - Which countries are the highest exporters and importers and is there a relationship with the GDP?
-- How does the transport and production of food affect the ecosystem?
 - How does the food we eat affect our Life expectancy? 
 
 # Dataset
