@@ -12,11 +12,17 @@
 - How much do the food travel before reaching the countries we study ?
 
 # Dataset
-  We want to use the Open Food Facts database dataset. This dataset provides different tags that will help us to classify countries into exporters and importers depending on the food. The main tags we will use are the "origins of ingredients", "place of manufacture", "countries where the product is sold". This will help us to perform some estimations on the travelled distance of the food. This dataset also provides the Nutricient Score per country and the different ingredients and nutrition facts per food, which we will use to quantify the nutritional quality of food.
+## [OpenFoodFacts](https://fr.openfoodfacts.org/data)
+  We want to use the Open Food Facts database dataset. This dataset provides different tags that will help us to classify countries into exporters and importers depending on the food.  
+  Main tags used: 
+  - "origins of ingredients"
+  - "place of manufacture" 
+  - "countries where the product is sold"  
+  - "nutrition score"
+   This will help us to perform some estimations on the travelled distance of the food. However, the majority of the data that comes from this dataset is from France. This especially affects the origins and places where the food is sold. Therefore, we decided to focus on France and in addition Switzerland for answering our research questions. 
   
-  Some of the products if not all of them from this dataset are provided in CSV format so we can use Pandas to read them.
-  
-  In addition, we want to use statistics from the [World Bank](https://www.worldbank.org/) in order to relate the Gross Domestic Product (GDP), the Life Expectancy or other values with our data.
+## [Gross Domestic Product per country (in $)](https://data.worldbank.org/indicator/ny.gdp.mktp.cd) and [Life Expectancy](https://data.worldbank.org/indicator/SP.DYN.LE00.IN)
+  We want to use statistics from the [World Bank](https://www.worldbank.org/) in order to relate the Gross Domestic Product (GDP), the Life Expectancy or other values with our data. The most recent and complete data is taken.
 
 # External libraries
 - Numpy
