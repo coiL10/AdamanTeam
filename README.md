@@ -6,32 +6,43 @@
   Our project will mainly focus on important actual issues regarding its ecological and health aspects. We will first get more insights about the food transportation process, about its origin and destination and the ecological footprint of this transportation. We will then get to find how food affects our health by comparing the food consumption of countries to their global health indicators and look for the effects of this uniformization of food consumption.
 
 # Research questions
-# Milestone 1
-- Which countries are the highest exporters and importers and is there a relationship with the GDP?
-- How does the food we eat affect our Life expectancy? 
+- How does the globalization impacts the food quality (based on a nutrition score) for countries like France or Switzerland ?
+- How does the food we eat affect our Life expectancy ? 
+- Is there a relationship between the wealth of a country and its food quality ?
+- How much do the food travel before reaching the countries we study ?
 
 # Dataset
-  We want to use the Open Food Facts database dataset. This dataset provides different tags that will help us to classify countries into exporters and importers depending on the food. The main tags we will use are the "origins of ingredients", "place of manufacture", "countries where the product is sold" and "store where the product is purchased". This will help us to perform some estimations on the travelled distance of the food. This dataset also provides the Nutricient Score per country and the different ingredients and nutrition facts per food. If relevant, we will also look into the carbon footprint.
+## [OpenFoodFacts](https://fr.openfoodfacts.org/data)
+  We want to use the Open Food Facts database dataset. This dataset provides different tags that will help us to classify countries into exporters and importers depending on the food.  
+  Main tags used: 
+  - "origins of ingredients"
+  - "place of manufacture" 
+  - "countries where the product is sold"  
+  - "nutrition score"  
+    
+This will help us to perform some estimations on the travelled distance of the food. However, the majority of the data that comes from this dataset is from France. This especially affects the origins and places where the food is sold. Therefore, we decided to focus on France and in addition Switzerland for answering our research questions. 
   
-  Some of the products if not all of them from this dataset are provided in CSV format so we can use Pandas to read them. If it becomes necessary this dataset is also provided in JSON format.
-  
-  In addition, we want to use statistics from the World Health Organization (WHO) in order to relate the Gross Domestic Product (GDP), the Life Expectancy or other values with our data.
+## [Gross Domestic Product per country (in $)](https://data.worldbank.org/indicator/ny.gdp.mktp.cd) and [Life Expectancy](https://data.worldbank.org/indicator/SP.DYN.LE00.IN)
+  We want to use statistics from the [World Bank](https://www.worldbank.org/) in order to relate the Gross Domestic Product (GDP), the Life Expectancy or other values with our data. The most recent and complete data is taken.
+
+# External libraries
+- Numpy
+- Pandas
+- GeoPy  
+(to be completed)
 
 # A list of internal milestones up until project milestone 2
 Week 1 (9 Nov)
 
-- Access to the database from the cluster.
-- Create table with Life expectancy per country based on the WHO
+- Access to the database from the cluster. - *We decided that pandas was enough to handle the data in its size*
+- Create table with Life expectancy per country based on the WHO - *Finally found on World Bank, done*
 
 Week 2 (16 Nov)
 
-- Create table with the positions of countries for distance estimation.
-- Relate Nutricient Score to Average Life expectancy per country
-- Analyze the most popular types of food
+- Create table with the positions of countries for distance estimation. - *Library geopy will take care of the locations*
+- Relate Nutricient Score to Average Life expectancy per country - *Done*
+- Analyze the most popular types of food - *Decided it will not be useful*
 
 Week 3 (23 Nov)
 
-- Create the dataframe and clean the dataset
-
-# Questions for TAa
-- Is it okay to use some statistics from the WHO in project ?
+- Create the dataframe and clean the dataset - *Done
