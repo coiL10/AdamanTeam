@@ -18,8 +18,9 @@
   - "origins of ingredients"
   - "place of manufacture" 
   - "countries where the product is sold"  
-  - "nutrition score"
-   This will help us to perform some estimations on the travelled distance of the food. However, the majority of the data that comes from this dataset is from France. This especially affects the origins and places where the food is sold. Therefore, we decided to focus on France and in addition Switzerland for answering our research questions. 
+  - "nutrition score"  
+    
+    This will help us to perform some estimations on the travelled distance of the food. However, the majority of the data that comes from this dataset is from France. This especially affects the origins and places where the food is sold. Therefore, we decided to focus on France and in addition Switzerland for answering our research questions. 
   
 ## [Gross Domestic Product per country (in $)](https://data.worldbank.org/indicator/ny.gdp.mktp.cd) and [Life Expectancy](https://data.worldbank.org/indicator/SP.DYN.LE00.IN)
   We want to use statistics from the [World Bank](https://www.worldbank.org/) in order to relate the Gross Domestic Product (GDP), the Life Expectancy or other values with our data. The most recent and complete data is taken.
