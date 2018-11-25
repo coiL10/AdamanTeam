@@ -28,7 +28,7 @@ This will help us to perform some estimations on the travelled distance of the f
 # External libraries
 - Numpy
 - Pandas
-- GeoPy
+- GeoPy  
 (to be completed)
 
 # A list of internal milestones up until project milestone 2
