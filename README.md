@@ -37,5 +37,5 @@ This will help us to perform some estimations on the travelled distance of the f
 
 # Contributions
 - **Maxime Lemarignier**: Wrote abstract, did the data exploration, did the societal aspects of food part, generated pie charts and plots, improved wordcloud, wrote part of the data story, cleaned the notebook
-- **Alvaro Pinedo**: Wrote initial research questions, did data cleaning, researched on GeoPy, did the part on foot-print, wrote part of the data story, cleaned the notebook, made first plots, generated maps
+- **Alvaro Pinedo**: Wrote initial research questions, did data cleaning, researched on GeoPy, did the part on foot-print, wrote part of the data story, cleaned the notebook, made first plots, generated maps, updated research questions
 - **Loïc Nguyen**: Setup the initial repo and the jekyll static website, wrote internal milestones, did data cleaning, research on folium, generated maps, generated initial wordclouds, cleaned the notebook, updated readme, wrote part of the data story
