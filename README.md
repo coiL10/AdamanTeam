@@ -1,5 +1,5 @@
 # Impacts of Globalization on Food 
-
+# [Data Story](https://adamanteam.github.io/Data-Story/)
 # Abstract
   With the fast growth and democratization of transports, the food we eat everyday no longer depends on the local production but tends to come from various parts of the globe. Using the Open Food Facts Dataset, our goal is to discover and analyze the various impacts of this food globalization.
   
@@ -29,20 +29,10 @@ This will help us to perform some estimations on the travelled distance of the f
 - Numpy
 - Pandas
 - GeoPy  
-(to be completed)
+- folium
+- wordcloud
 
-# A list of internal milestones up until project milestone 2
-Week 1 (9 Nov)
-
-- Access to the database from the cluster. - *We decided that pandas was enough to handle the data in its size*
-- Create table with Life expectancy per country based on the WHO - *Finally found on World Bank, done*
-
-Week 2 (16 Nov)
-
-- Create table with the positions of countries for distance estimation. - *Library geopy will take care of the locations*
-- Relate Nutricient Score to Average Life expectancy per country - *Done*
-- Analyze the most popular types of food - *Decided it will not be useful*
-
-Week 3 (23 Nov)
-
-- Create the dataframe and clean the dataset - *Done
+# Contributions
+- **Maxime Lemarignier**:
+- **Alvaro Pinedo**:
+- **Loïc Nguyen**:
