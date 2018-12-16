@@ -33,6 +33,7 @@ This will help us to perform some estimations on the travelled distance of the f
 - wordcloud
 - seaborn
 - PIL
+- mathplotlib
 
 # Contributions
 - **Maxime Lemarignier**:
