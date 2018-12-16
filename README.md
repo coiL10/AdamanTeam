@@ -31,6 +31,8 @@ This will help us to perform some estimations on the travelled distance of the f
 - GeoPy  
 - folium
 - wordcloud
+- seaborn
+- PIL
 
 # Contributions
 - **Maxime Lemarignier**:
