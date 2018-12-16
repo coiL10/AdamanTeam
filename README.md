@@ -33,7 +33,7 @@ This will help us to perform some estimations on the travelled distance of the f
 - wordcloud
 - seaborn
 - PIL
-- mathplotlib
+- matplotlib
 
 # Contributions
 - **Maxime Lemarignier**: Wrote abstract, did the data exploration, did the societal aspects of food part, generated pie charts and plots, improved wordcloud, wrote part of the data story, cleaned the notebook, wrote conclusion
